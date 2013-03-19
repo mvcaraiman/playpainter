@@ -4,7 +4,7 @@ import play.Project._
 
 object ApplicationBuild extends Build {
 
-  val appName         = "tester"
+  val appName         = "Play Painter"
   val appVersion      = "1.0-SNAPSHOT"
 
   val appDependencies = Seq(
@@ -17,5 +17,7 @@ object ApplicationBuild extends Build {
   val main = play.Project(appName, appVersion, appDependencies).settings(
     // Add your own project settings here      
   )
-
 }
+
+
+
